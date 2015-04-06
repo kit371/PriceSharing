@@ -44,7 +44,282 @@
             android:layout_below="@+id/scantopic"
             android:layout_alignParentStart="true"
             android:layout_marginTop="30dp" />
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/border">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="BestBargain"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentStart="true"
+            android:id="@+id/horizontalScrollView"
+            android:layout_alignParentEnd="true" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="105dp"
+                android:layout_height="136dp">
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/demo"
+                    android:contentDescription="demo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CAN YOU SEE ME?"
+                    android:id="@+id/item1"
+                    android:layout_below="@id/imageView1"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="5dp"
+                    android:textSize="12sp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="105dp"
+                android:layout_height="136dp">
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/demo"
+                    android:contentDescription="demo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CAN YOU SEE ME?"
+                    android:id="@+id/item2"
+                    android:layout_below="@id/imageView1"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="5dp"
+                    android:textSize="12sp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="105dp"
+                android:layout_height="136dp">
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/demo"
+                    android:contentDescription="demo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CAN YOU SEE ME?"
+                    android:id="@+id/item3"
+                    android:layout_below="@id/imageView1"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="5dp"
+                    android:textSize="12sp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="105dp"
+                android:layout_height="136dp">
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/demo"
+                    android:contentDescription="demo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CAN YOU SEE ME?"
+                    android:id="@+id/item4"
+                    android:layout_below="@id/imageView1"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="5dp"
+                    android:textSize="12sp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="105dp"
+                android:layout_height="136dp">
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/demo"
+                    android:contentDescription="demo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CAN YOU SEE ME?"
+                    android:id="@+id/item5"
+                    android:layout_below="@id/imageView1"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="5dp"
+                    android:textSize="12sp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="105dp"
+                android:layout_height="136dp">
+                <ImageView
+                    android:id="@+id/imageVie6"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/demo"
+                    android:contentDescription="demo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CAN YOU SEE ME?"
+                    android:id="@+id/item6"
+                    android:layout_below="@id/imageView1"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="5dp"
+                    android:textSize="12sp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="105dp"
+                android:layout_height="136dp">
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/demo"
+                    android:contentDescription="demo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CAN YOU SEE ME?"
+                    android:id="@+id/item7"
+                    android:layout_below="@id/imageView1"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="5dp"
+                    android:textSize="12sp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="105dp"
+                android:layout_height="136dp">
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/demo"
+                    android:contentDescription="demo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CAN YOU SEE ME?"
+                    android:id="@+id/item8"
+                    android:layout_below="@id/imageView1"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="5dp"
+                    android:textSize="12sp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="105dp"
+                android:layout_height="136dp">
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/demo"
+                    android:contentDescription="demo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CAN YOU SEE ME?"
+                    android:id="@+id/item9"
+                    android:layout_below="@id/imageView1"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="5dp"
+                    android:textSize="12sp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="105dp"
+                android:layout_height="136dp">
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/demo"
+                    android:contentDescription="demo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CAN YOU SEE ME?"
+                    android:id="@+id/item10"
+                    android:layout_below="@id/imageView1"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="5dp"
+                    android:textSize="12sp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="105dp"
+                android:layout_height="136dp">
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/demo"
+                    android:contentDescription="demo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CAN YOU SEE ME?"
+                    android:id="@+id/item11"
+                    android:layout_below="@id/imageView1"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="5dp"
+                    android:textSize="12sp"/>
+            </RelativeLayout>            <RelativeLayout
+            android:layout_width="105dp"
+            android:layout_height="136dp">
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/demo"
+                android:contentDescription="demo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CAN YOU SEE ME?"
+                android:id="@+id/item12"
+                android:layout_below="@id/imageView1"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:textSize="12sp"/>
+        </RelativeLayout>
+        </LinearLayout>
+        </HorizontalScrollView>
+        </RelativeLayout>
     </RelativeLayout>
 
     <!-- android:layout_gravity="start" tells DrawerLayout to treat

@@ -59,7 +59,7 @@ public class HomeActivity extends ActionBarActivity
             public void onClick(View view) {
 
                 IntentIntegrator integrator = new IntentIntegrator(HomeActivity.this);
-                integrator.initiateScan();
+               integrator.initiateScan();
             }
         });}
     public void onActivityResult(int requestCode,int resultCode, Intent intent){
@@ -128,9 +128,9 @@ public class HomeActivity extends ActionBarActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+/*        if (id == R.id.action_settings) {
             return true;
-        }
+        }*/
 
         return super.onOptionsItemSelected(item);
     }
